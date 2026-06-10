@@ -1,0 +1,236 @@
+Graphic "DERPEX", 20, 14
+{
+	Offset -8, -10
+	Patch "DERPBOT", -67, -17
+	Patch "PBRSB0H0", 13, 0
+	Patch "PBRSA0", 19, 3
+}
+
+Sprite "DERPA1", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", -89, 0
+}
+
+Sprite "DERPA5", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", 0, 0
+}
+
+Sprite "DERPA8A2", 15, 14
+{
+	Offset 6, 13
+	Patch "DERPBOT", -67, 0
+}
+
+Sprite "DERPA7A3", 20, 14
+{
+	Offset 9, 13
+	Patch "DERPBOT", -37, 0
+}
+
+Sprite "DERPA6A4", 16, 14
+{
+	Offset 6, 13
+	Patch "DERPBOT", -16, 0
+}
+
+Sprite "DERPC1", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", -89, -17
+}
+
+Sprite "DERPC5", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", 0, -17
+}
+
+Sprite "DERPC8C2", 20, 14
+{
+	Offset 6, 13
+	Patch "DERPBOT", -67, -17
+}
+
+Sprite "DERPC7C3", 29, 14
+{
+	Offset 9, 13
+	Patch "DERPBOT", -37, -17
+}
+
+Sprite "DERPC6C4", 19, 14
+{
+	Offset 6, 13
+	Patch "DERPBOT", -16, -17
+}
+
+Sprite "DERPD1", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", -89, -33
+}
+
+Sprite "DERPD5", 13, 14
+{
+	Offset 7, 13
+	Patch "DERPBOT", 0, -33
+}
+
+Sprite "DERPD8D2", 15, 13
+{
+	Offset 6, 13
+	Patch "DERPBOT", -67, -33
+}
+
+Sprite "DERPD7D3", 20, 14
+{
+	Offset 9, 13
+	Patch "DERPBOT", -37, -33
+}
+
+Sprite "DERPD6D4", 16, 13
+{
+	Offset 6, 13
+	Patch "DERPBOT", -16, -33
+}
+
+Graphic "HERPEX", 48, 19
+{
+	XScale 1.800
+	YScale 1.800
+	Offset -8, -10
+	Patch "HERPB8B2", 0, 0
+}
+
+Sprite "HERPA1", 23, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 19
+	Patch "HERPBOT", -7, 0
+}
+
+Sprite "HERPB1", 23, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 19
+	Patch "HERPBOT", -7, 0
+	Patch "HERPMF", 7, 5
+}
+
+Sprite "HERPC1", 23, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 19
+	Patch "HERPBOT", -7, 0
+}
+
+Sprite "HERPA8A2", 39, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 15, 19
+	Patch "HERPBOT", 0, -20
+}
+
+Sprite "HERPB8B2", 48, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 15, 19
+	Patch "HERPBOT", 0, -20
+	Patch "HERPMF", 32, -26
+}
+
+Sprite "HERPC8C2", 39, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 15, 19
+	Patch "HERPBOT", 0, -20
+}
+
+Sprite "HERPA7A3", 56, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 17, 19
+	Patch "HERPBOT", 0, -40
+}
+
+Sprite "HERPB7B3", 68, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 17, 19
+	Patch "HERPBOT", 0, -40
+	Patch "HERPMF", 53, -53
+}
+
+Sprite "HERPC7C3", 56, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 17, 19
+	Patch "HERPBOT", 0, -40
+}
+
+Sprite "HERPA6A4", 39, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 16, 19
+	Patch "HERPBOT", 0, -59
+}
+
+Sprite "HERPB6B4", 49, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 16, 19
+	Patch "HERPBOT", 0, -59
+	Patch "HERPMF", 37, -79
+}
+
+Sprite "HERPC6C4", 39, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 16, 19
+	Patch "HERPBOT", 0, -59
+}
+
+Sprite "HERPA5", 23, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 19
+	Patch "HERPBOT", 0, -79
+}
+
+Sprite "HERPB5", 23, 20
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 20
+	Patch "HERPBOT", 0, -78
+	Patch "HERPMF", 5, -110
+}
+
+Sprite "HERPC5", 23, 19
+{
+	XScale 1.500
+	YScale 1.500
+	Offset 12, 19
+	Patch "HERPBOT", 0, -79
+}
+
+Sprite "HLEGA0", 6, 14
+{
+	Offset 3, 14
+	Patch "HERPBOT", 0, 0
+}
