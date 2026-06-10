@@ -1,0 +1,741 @@
+/*
+
+██████████▀▀▀▀▀▀▀▀▀▀▀▀▀██████████
+█████▀▀░░░░░░░░░░░░░░░░░░░▀▀█████
+███▀░░░░░░░░░░░░░░░░░░░░░░░░░▀███
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+█░░░░░░▄▄▄▄▄▄░░░░░░░░▄▄▄▄▄▄░░░░░█
+█░░░▄██▀░░░▀██░░░░░░██▀░░░▀██▄░░█
+█░░░██▄░░▀░░▄█░░░░░░█▄░░▀░░▄██░░█
+██░░░▀▀█▄▄▄██░░░██░░░██▄▄▄█▀▀░░██
+███░░░░░░▄▄▀░░░████░░░▀▄▄░░░░░███
+██░░░░░█▄░░░░░░▀▀▀▀░░░░░░░█▄░░░██
+██░░░▀▀█░█▀▄▄▄▄▄▄▄▄▄▄▄▄▄▀██▀▀░░██
+███░░░░░▀█▄░░█░░█░░░█░░█▄▀░░░░███
+████▄░░░░░░▀▀█▄▄█▄▄▄█▄▀▀░░░░▄████
+███████▄▄▄▄░░░░░░░░░░░░▄▄▄███████
+
+* sndinfo? nah. this is sansinfo now kiddo.
+
+*/
+
+// Weapons
+
+// pocketing
+$random weapons/pocket {weapons/pocketin1 weapons/pocketin2 weapons/pocketin3 weapons/pocketin4 weapons/pocketout1 weapons/pocketout2 weapons/pocketout3 weapons/pocketout4 weapons/pocketout5 weapons/pocketout6 weapons/pocketout7 weapons/pocketout8 weapons/pocketout9}
+
+weapons/pocketin1 "Sounds/Pocket/generic_pouch_in_1.wav"
+weapons/pocketin2 "Sounds/Pocket/generic_pouch_in_2.wav"
+weapons/pocketin3 "Sounds/Pocket/generic_pouch_in_3.wav"
+weapons/pocketin4 "Sounds/Pocket/generic_pouch_in_4.wav"
+
+weapons/pocketout1 "Sounds/Pocket/Generic_pouch_out1.wav"
+weapons/pocketout2 "Sounds/Pocket/Generic_pouch_out2.wav"
+weapons/pocketout3 "Sounds/Pocket/Generic_pouch_out3.wav"
+weapons/pocketout4 "Sounds/Pocket/Generic_pouch_out4.wav"
+weapons/pocketout5 "Sounds/Pocket/Generic_pouch_out5.wav"
+weapons/pocketout6 "Sounds/Pocket/Generic_pouch_out6.wav"
+weapons/pocketout7 "Sounds/Pocket/Generic_pouch_out7.wav"
+weapons/pocketout8 "Sounds/Pocket/Generic_pouch_out8.wav"
+weapons/pocketout9 "Sounds/Pocket/Generic_pouch_out9.wav"
+
+// pee gun
+weapons/pismagclick  "Sounds/weapons/99-FX Pistol/CZ75_MagazineIn.wav"
+weapons/pistoldry    "Sounds/weapons/99-FX Pistol/Beretta92FS_HammerHit.wav"
+weapons/pischamber1  "Sounds/weapons/99-FX Pistol/Beretta92FS_BoltSlideBackHeld.Wav"
+weapons/pischamber2  "Sounds/weapons/99-FX Pistol/Beretta92FS_BoltSlideForwardHeld.Wav"
+weapons/pissshot1 "Sounds/weapons/99-FX Pistol/Beretta92FS_Shot_1.wav"
+weapons/pissshot2 "sounds/weapons/99-FX Pistol/beretta92fs_shot_2.wav"
+weapons/pissshot3 "sounds/weapons/99-FX Pistol/beretta92fs_shot_3.wav"
+weapons/pissshot4 "sounds/weapons/99-FX Pistol/beretta92fs_shot_4.wav"
+$random weapons/pistol {weapons/pissshot1 weapons/pissshot2 weapons/pissshot3 weapons/pissshot4}
+
+// sussy man gun
+$random weapons/smg {weapons/susmangunshot1 weapons/susmangunshot2 weapons/susmangunshot3 weapons/susmangunshot4}
+weapons/susmangunshot1 "Sounds/weapons/MP-46 SMG/suppressed_shot_9x19_1.wav"
+weapons/susmangunshot2 "Sounds/weapons/MP-46 SMG/suppressed_shot_9x19_2.wav"
+weapons/susmangunshot3 "Sounds/weapons/MP-46 SMG/suppressed_shot_9x19_3.wav"
+weapons/susmangunshot4 "Sounds/weapons/MP-46 SMG/suppressed_shot_9x19_4.wav"
+weapons/smgchamber "Sounds/weapons/MP-46 SMG/ThompsonM1A1_BoltSlideForward.wav"
+weapons/smgmagmove "Sounds/Weapons/MP-46 SMG/ThompsonM1A1_MagazineIn.wav"
+weapons/smgmagclick "Sounds/Weapons/MP-46 SMG/ThompsonM1A1_MagazineOut.wav"
+
+// revolver :))))))))
+$random weapons/deinoblast1  {weapons/dinoshot1 weapons/dinoshot2 weapons/dinoshot3 weapons/dinoshot4}
+weapons/dinoshot1 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_1.wav"
+weapons/dinoshot2 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_2.wav"
+weapons/dinoshot3 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_3.wav"
+weapons/dinoshot4 "Sounds/weapons/Deinonychus Revolver/Generic357B_Shot_4.wav"
+weapons/deinoblast2 "Sounds/weapons/Deinonychus Revolver/grach_fire_outdoor_distant.wav"
+weapons/deinoclick "Sounds/weapons/Deinonychus Revolver/Rhino_HammerHit.wav"
+weapons/deinoeject "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_EjectRounds_1.wav"
+weapons/deinocyl "Sounds/weapons/Deinonychus Revolver/RollingBlock_PreFire.wav"
+$random weapons/deinoload {weapons/dinoload1 weapons/dinoload2 weapons/dinoload3 weapons/dinoload4} $volume weapons/deinoload 2.0
+weapons/dinoload1 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small1.wav"
+weapons/dinoload2 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small2.wav"
+weapons/dinoload3 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small3.wav"
+weapons/dinoload4 "Sounds/weapons/Deinonychus Revolver/RevolverInsertRound_Small4.wav"
+weapons/deinoopen "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_BreachOpen.wav"
+weapons/deinoclose "Sounds/weapons/Deinonychus Revolver/WebleyRevolver_BreachClose.wav"
+
+// Hunter :((((
+$random weapons/hunter {weapons/hunshot1 weapons/hunshot2 weapons/hunshot3 weapons/hunshot4}
+weapons/hunshot1 "Sounds/weapons/SPOS-E28 Hunter/ShotgunLongB_Shot_1.wav"
+weapons/hunshot2 "Sounds/weapons/SPOS-E28 Hunter/ShotgunLongB_Shot_2.wav"
+weapons/hunshot3 "Sounds/weapons/SPOS-E28 Hunter/ShotgunLongB_Shot_3.wav"
+weapons/hunshot4 "Sounds/weapons/SPOS-E28 Hunter/ShotgunLongB_Shot_4.wav"
+weapons/huntopen "Sounds/weapons/SPOS-E28 Hunter/scatter_gun_double_tube_open.wav"
+weapons/huntreload "Sounds/weapons/SPOS-E28 Hunter/WinchesterM73_MagazineInsertRound.wav"
+weapons/huntrack "Sounds/weapons/SPOS-E28 Hunter/WinchesterM73_HandleForwardEmpty.wav"
+weapons/huntrackbak "Sounds/weapons/SPOS-E28 Hunter/forward.wav"
+weapons/huntrackfwd "Sounds/weapons/SPOS-E28 Hunter/back.wav"
+weapons/huntshort "Sounds/weapons/SPOS-E28 Hunter/WinchesterM73_HandleBackEmpty.wav"
+
+world/shotgunfar "Sounds/Weapons/SPOS-E28 Hunter/mr153_fire_far2.wav" $volume world/shotgunfar 0.272
+
+// Slayer :)))))))))))))))))))))))))))))))))))))))))))))))))
+$random weapons/slayersingle {weapons/slayshot1 weapons/slayshot2 weapons/slayshot3 weapons/slayshot4}
+weapons/slayshot1 "Sounds/weapons/SL-41 Slayer/BreakAction_Shot_1.wav"
+weapons/slayshot2 "Sounds/weapons/SL-41 Slayer/BreakAction_Shot_2.wav"
+weapons/slayshot3 "Sounds/weapons/SL-41 Slayer/BreakAction_Shot_3.wav"
+weapons/slayshot4 "Sounds/weapons/SL-41 Slayer/BreakAction_Shot_4.wav"
+
+weapons/sshoto "Sounds/weapons/SL-41 Slayer/BreakAction_BreachOpen.wav"
+$alias weapons/sshot1 weapons/huntreload
+weapons/sshotc "Sounds/weapons/SL-41 Slayer/BreakAction_BreachClose.wav"
+
+// Zed Em sexty-six
+$random weapons/rifle {weapons/zm661 weapons/zm662 weapons/zm663 weapons/zm664}
+weapons/zm661 "Sounds/weapons/Volt ZM66/G11_Shot_1.wav"
+weapons/zm662 "Sounds/weapons/Volt ZM66/G11_Shot_2.wav"
+weapons/zm663 "Sounds/weapons/Volt ZM66/G11_Shot_3.wav"
+weapons/zm664 "Sounds/weapons/Volt ZM66/G11_Shot_4.wav"
+// I believe this is just the same as weapons/rifchamber but only used in chamber_manual??????????? idfk man - [Ted]
+weapons/rifleclick  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
+weapons/rifleclick2  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
+weapons/rifleload "Sounds/weapons/Volt ZM66/G11_MagazineIn.wav"
+weapons/rifleunload "Sounds/weapons/Volt ZM66/G11_MagazineOut.wav"
+weapons/grenreload "Sounds/weapons/Volt ZM66/GP25_Load.wav"
+$random weapons/grenadeshot {weapons/grenadelauncher1 weapons/grenadelauncher2 weapons/grenadelauncher3 weapons/grenadelauncher4}
+weapons/grenadelauncher1 "Sounds/weapons/Volt ZM66/GrenadeLauncher_Shot_1.wav"
+weapons/grenadelauncher2 "Sounds/weapons/Volt ZM66/GrenadeLauncher_Shot_2.wav"
+weapons/grenadelauncher3 "Sounds/weapons/Volt ZM66/GrenadeLauncher_Shot_3.wav"
+weapons/grenadelauncher4 "Sounds/weapons/Volt ZM66/GrenadeLauncher_Shot_4.wav"
+$random weapons/riflejam {weapons/zm66jam1 weapons/zm66jam2 weapons/zm66jam3}
+weapons/zm66jam1 "Sounds/Weapons/Volt ZM66/Bot_PunchSpike_1.wav"
+weapons/zm66jam2 "Sounds/Weapons/Volt ZM66/Bot_PunchSpike_2.wav"
+weapons/zm66jam3 "Sounds/Weapons/Volt ZM66/Bot_PunchSpike_3.wav"
+weapons/rifchamber "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
+
+world/riflefar "Sounds/Weapons/Volt ZM66/ak74_raw_far2.wav" $volume world/riflefar 0.272
+
+// voolc
+$random weapons/vulcanette {weapons/zm661 weapons/zm662 weapons/zm663 weapons/zm664} $pitchset world/vulcfar 0.4 $volume world/vulcfar 0.272
+weapons/vulcbelt "Sounds/Weapons/Mk. III Vulcanette/M249_SeatBelt.wav"
+weapons/vulcmag "Sounds/Weapons/Mk. III Vulcanette/M249_MagazineIn.wav"
+weapons/vulcumag "Sounds/Weapons/Mk. III Vulcanette/M249_MagazineOut.wav"
+weapons/vulcchamber "Sounds/Weapons/Mk. III Vulcanette/M249_BoltSlideForward.wav"
+weapons/vulcanup "Sounds/Weapons/Mk. III Vulcanette/M249_Cover_Open.wav"
+weapons/vulcandown "Sounds/Weapons/Mk. III Vulcanette/M249_Cover_Close.wav"
+weapons/vulcanon "Sounds/Weapons/Mk. III Vulcanette/M249_Safety.wav"
+weapons/vulcshunt "Sounds/Weapons/Mk. III Vulcanette/M249_HandleBack.wav"
+weapons/vulcopen1 "Sounds/Weapons/Mk. III Vulcanette/M249_Cover_Open.wav" //dsriflod in Doom1
+weapons/vulcopen2 "Sounds/Weapons/Mk. III Vulcanette/M249_Cover_Close.wav"
+weapons/vulcextract "Sounds/Weapons/Mk. III Vulcanette/G11_CharginHandleTurn.wav"
+weapons/vulcforcemag "Sounds/Weapons/Mk. III Vulcanette/M249_MagazineIn.wav"
+$random weapons/vulcfix {weapons/vulcshunt weapons/vulcforcemag weapons/vulcumag weapons/vulcbelt}
+$random weapons/vulctryfix {weapons/vulcshunt weapons/vulcforcemag}
+$random weapons/vulctryfix2 {weapons/vulcshunt weapons/vulcopen1 weapons/vulcumag weapons/vulcforcemag weapons/vulcextract weapons/bigcrack weapons/pocket}
+
+$alias world/vulcfar world/riflefar
+$alias world/herpfar world/riflefar $volume world/herpfar 0.2272
+
+// RL and Bloopie
+weapons/rockignite "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/RPG7_shot_front_1.wav"
+weapons/rocklaunch "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/RPG7_shot_rear_1.wav"
+weapons/rockreload "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/RPG7_Insert_Rocket.wav"
+weapons/rockboom "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/Grenade_Explosion.wav"
+weapons/rockchamber "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/AKS74_StockDeployed.wav" $volume weapons/rockchamber 0.4 $pitchset weapons/rockchamber 0.9
+weapons/rockopen "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/BAR_Selector.wav"
+weapons/rockopen2 "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/BAR_HandleForward_2.wav"
+
+$alias world/rocketfar world/explode
+
+// thundy bustie
+// they don't call it the thunder buster for nothing
+$random weapons/plasmas {weapons/lightningstrike1 weapons/lightningstrike2 weapons/lightningstrike3 weapons/lightningstrike4}  $limit weapons/plasmas 0 $volume weapons/plasmas 1.2
+weapons/plasidle "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_HeatSinkHiss.wav"  $limit weapons/plasidle 4
+weapons/plasswitch "Sounds/Weapons/Thunder Buster Beam Projector/pso1_illumination_switch.wav" $volume weapons/plasswitch 4
+weapons/plasopen "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BatteryDead.wav"
+weapons/plasload "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BatteryIn.wav"
+weapons/plasclose "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_BreachClose.wav"
+weapons/plasclose2 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_CapacitorCharged.wav"
+weapons/plascrack   dsthubm   $limit weapons/plascrack 0
+$random weapons/plasmaf {weapons/thuncharge1 weapons/thuncharge2 weapons/thuncharge3 weapons/thuncharge4}
+
+weapons/thuncharge1 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_1.wav"
+weapons/thuncharge2 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_2.wav"
+weapons/thuncharge3 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_3.wav"
+weapons/thuncharge4 "Sounds/Weapons/Thunder Buster Beam Projector/LAPD2019_Powered_Shot_4.wav"
+
+weapons/lightningstrike1 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 1.wav"
+weapons/lightningstrike2 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 2.wav"
+weapons/lightningstrike3 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 3.wav"
+weapons/lightningstrike4 "Sounds/Weapons/Thunder Buster Beam Projector/Lightningstrike 4.wav"
+
+$alias misc/zap weapons/plasmas $volume misc/zap 0.4
+$alias misc/zap2 weapons/plasmas $volume misc/zap2 0.4
+$alias misc/zap3 weapons/plasmas $volume misc/zap3 0.4
+misc/arccrackle "Sounds/Weapons/Thunder Buster Beam Projector/arccrackle.wav" $volume misc/arccrackle 0.4
+caco/arczap "Sounds/Weapons/Thunder Buster Beam Projector/Loops_Electric_SmallSparks_06.wav" $volume caco/arczap 0.4
+$alias caco/zap caco/arczap $volume caco/zap 0.4
+$alias caco/zap2 caco/arczap $volume caco/zap2 0.4
+$alias caco/zap3 caco/arczap $volume caco/zap3 0.4
+
+$alias world/tbfar world/riflefar $volume world/tbfar 0.272
+$alias world/tbfar2 world/shotgunfar $volume world/tbfar2 0.272
+
+// Liberal Rifle
+// This kinda sounds like shit but idrc, same goes for the ZM reload
+// I don't like this gun at all so it's fitting. - [Ted]
+$random weapons/bigrifle {weapons/libfire1 weapons/libfire2 weapons/libfire3 weapons/libfire4}
+weapons/libchamber "Sounds/Weapons/ZM-7 Liberator/G3_BoltSlideForward.wav"
+weapons/libchamber2 "Sounds/Weapons/ZM-7 Liberator/G3_HandleUp"
+weapons/libchamber2a "Sounds/Weapons/ZM-7 Liberator/G3_HandleDown"
+weapons/libfire1 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_1.wav"
+weapons/libfire2 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_2.wav"
+weapons/libfire3 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_3.wav"
+weapons/libfire4 "Sounds/Weapons/ZM-7 Liberator/Tactical8400_Shot_4.wav"
+weapons/libclick  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
+weapons/libclick2  "Sounds/weapons/Volt ZM66/G11_BoltSlideForward.wav"
+world/bigriflefar "Sounds/Weapons/Volt ZM66/ak74_raw_far2.wav" $volume world/bigriflefar 0.272
+
+// Brontornis
+weapons/bronto "Sounds/Weapons/Brontornis Ultralight Cannon/BigBoomer_Shot.wav" 
+weapons/bronto2 "Sounds/Weapons/Brontornis Ultralight Cannon/powerbolt_fire.wav"
+weapons/brontoload "Sounds/Weapons/Blooper & Urban Artillery Rocket Launcher/RPG7_Insert_Rocket.wav"
+weapons/brontoopen "Sounds/Weapons/Brontornis Ultralight Cannon/M203_Open.wav" $pitchset weapons/brontoclose 1.1
+weapons/brontoclose "Sounds/Weapons/Brontornis Ultralight Cannon/M203_Close.wav" $pitchset weapons/brontoclose 1.2
+weapons/brontopop "Sounds/Weapons/Brontornis Ultralight Cannon/40mm m79 grenade launcher.wav" $pitchset weapons/brontopop 1.2
+
+// Boss Rifle
+$random weapons/bigrifle2  {weapons/bossfire1 weapons/bossfire2 weapons/bossfire3 weapons/bossfire4}
+weapons/boltback "Sounds/Weapons/Mk. IV Boss/Kar98k_HandleBack.wav"
+weapons/boltfwd "Sounds/Weapons/Mk. IV Boss/Kar98k_HandleForward.wav"
+weapons/bossload "Sounds/Weapons/Mk. IV Boss/Tactical8400_MagazineInsertRound_1.wav"
+weapons/bossloadm "Sounds/Weapons/Mk. IV Boss/StripperClip_Insert.wav"
+
+weapons/bossfire1 "Sounds/Weapons/Mk. IV Boss/Kar98k_Shot_1.wav"
+weapons/bossfire2 "Sounds/Weapons/Mk. IV Boss/Kar98k_Shot_2.wav"
+weapons/bossfire3 "Sounds/Weapons/Mk. IV Boss/Kar98k_Shot_3.wav"
+weapons/bossfire4 "Sounds/Weapons/Mk. IV Boss/Kar98k_Shot_4.wav"
+
+// frag
+weapons/fragpinin "Sounds/Weapons/Grenade/Grenade_PinPull_1.wav"
+$alias weapons/fragpinout weapons/fragpinin
+weapons/fragspoonoff "Sounds/Weapons/Grenade/Grenade_Fuze_StrikerActive_1.wav"
+weapons/grenopen "Sounds/Weapons/Grenade/grenade_open.wav"
+
+$random misc/w_pkup {wep/pickup1 wep/pickup2 wep/pickup3 wep/pickup4 wep/pickup5}
+
+wep/pickup1 "Sounds/Pickups/generic_pickup.wav"
+wep/pickup2 "Sounds/Pickups/weap_ar_pickup.wav"
+wep/pickup3 "Sounds/Pickups/weap_dmr_pickup.wav"
+wep/pickup4 "Sounds/Pickups/weap_pistol_pickup.wav"
+wep/pickup5 "Sounds/Pickups/weap_rifle_pickup.wav"
+
+// Peppper bepper
+
+// Hella sus magnum
+weapons/hmpholy "Sounds/Weapons/Peppergrinder/Helzing Magnum/lighter_light_A.wav"
+$random weapons/hmpfire {weapons/hmpshot1 weapons/hmpshot2 weapons/hmpshot3 weapons/hmpshot4}
+weapons/hmpshot1 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Generic357B_Shot_1.wav"
+weapons/hmpshot2 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Generic357B_Shot_2.wav"
+weapons/hmpshot3 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Generic357B_Shot_3.wav"
+weapons/hmpshot4 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Generic357B_Shot_4.wav"
+weapons/hmpfireholy "Sounds/Weapons/Peppergrinder/Helzing Magnum/BrowningM2_Shot_1.ogg"
+
+weapons/hmpblast "Sounds/Weapons/Peppergrinder/Helzing Magnum/DesertEagle_Shot_1.ogg"
+weapons/hmpchamber1 "Sounds/Weapons/Peppergrinder/Helzing Magnum/DesertEagle_BoltSlideBackHeld.ogg"
+weapons/hmpchamber2 "Sounds/Weapons/Peppergrinder/Helzing Magnum/DesertEagle_BoltSlideForwardHeld.ogg"
+$random weapons/hmpmagclick {weapons/hmpmagclick1 weapons/hmpmagclick2 weapons/hmpmagclick3 weapons/hmpmagclick4}
+weapons/hmpmagclick1 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Glock_MagazineIn.ogg"
+weapons/hmpmagclick2 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Glock_MagazineOut.ogg"
+weapons/hmpmagclick3 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Glock_MagazineInsertRound.ogg"
+weapons/hmpmagclick4 "Sounds/Weapons/Peppergrinder/Helzing Magnum/Glock_MagazineEjectRound.ogg"
+$alias weapons/bottleload potion/swish
+
+// wiseau
+$random weapons/wiseaufire {weapons/wfir1 weapons/wfir2 weapons/wfir3 weapons/wfir4}
+weapons/wfir1 "Sounds/Weapons/Peppergrinder/Wiseau/MassDriver_01.wav"
+weapons/wfir2 "Sounds/Weapons/Peppergrinder/Wiseau/MassDriver_02.wav"
+weapons/wfir3 "Sounds/Weapons/Peppergrinder/Wiseau/MassDriver_03.wav"
+weapons/wfir4 "Sounds/Weapons/Peppergrinder/Wiseau/MassDriver_04.wav"
+weapons/wiseauzap "Sounds/Weapons/Peppergrinder/Wiseau/LAPD2019_CapacitorCharging_short.wav"
+
+// li-sus
+$alias weapons/lisazap weapons/wiseauzap
+$alias weapons/lisaload weapons/plasload
+
+// 9mm ndm p90
+$random weapons/bp90 {weapons/rcf1 weapons/rcf2 weapons/rcf3 weapons/rcf4}
+weapons/rcf1 "Sounds/Weapons/Peppergrinder/P90/P90_Shot_1.ogg"
+weapons/rcf2 "Sounds/Weapons/Peppergrinder/P90/P90_Shot_2.ogg"
+weapons/rcf3 "Sounds/Weapons/Peppergrinder/P90/P90_Shot_3.ogg"
+weapons/rcf4 "Sounds/Weapons/Peppergrinder/P90/P90_Shot_4.ogg"
+
+weapons/bp90chamber "Sounds/Weapons/Peppergrinder/P90/P90_BoltSlideForward.ogg"
+weapons/bp90unload "Sounds/Weapons/Peppergrinder/P90/P90_MagazineOut.ogg"
+weapons/bp90load "Sounds/Weapons/Peppergrinder/P90/P90_MagazineIn.ogg"
+weapons/bp90click "Sounds/Weapons/Peppergrinder/P90/P90_HandleBack.ogg"
+weapons/bp90click2 "Sounds/Weapons/Peppergrinder/P90/P90_HandleForward.ogg"
+
+// Auto-5
+$random weapons/auto5fire {weapons/aut5fire1 weapons/aut5fire2 weapons/aut5fire3 weapons/aut5fire4} 
+weapons/auto5reload "Sounds/Weapons/Peppergrinder/Auto-5/GP25_Load.wav"
+
+weapons/aut5fire1 "Sounds/Weapons/Peppergrinder/Auto-5/Shotgun_Delay_Sharp_01.wav"
+weapons/aut5fire2 "Sounds/Weapons/Peppergrinder/Auto-5/Shotgun_Delay_Sharp_02.wav"
+weapons/aut5fire3 "Sounds/Weapons/Peppergrinder/Auto-5/Shotgun_Delay_Sharp_03.wav"
+weapons/aut5fire4 "Sounds/Weapons/Peppergrinder/Auto-5/Shotgun_Delay_Sharp_04.wav"
+
+weapons/auto5boltback "Sounds/Weapons/Peppergrinder/Auto-5/Auto5_BoltRelease.wav"
+weapons/auto5boltforward "Sounds/Weapons/Peppergrinder/Auto-5/Auto5_BoltSlideForward.wav"
+
+// Auroch or whatever the fuck
+$random weapons/auryshoot {weapons/aurchfire1 weapons/aurchfire2 weapons/aurchfire3 weapons/aurchfire4}
+
+weapons/aurchfire1 "Sounds/Weapons/Peppergrinder/Auroch/SAA_Shot_1.wav"
+weapons/aurchfire2 "Sounds/Weapons/Peppergrinder/Auroch/SAA_Shot_2.wav"
+weapons/aurchfire3 "Sounds/Weapons/Peppergrinder/Auroch/SAA_Shot_3.wav"
+weapons/aurchfire4 "Sounds/Weapons/Peppergrinder/Auroch/SAA_Shot_4.wav"
+
+$random weapons/auryshotgun {weapons/aurchshell1 weapons/aurchshell2 weapons/aurchshell3 weapons/aurchshell4}
+
+weapons/aurchshell1 "Sounds/Weapons/Peppergrinder/Auroch/Shotgun_410_A_01.wav"
+weapons/aurchshell2 "Sounds/Weapons/Peppergrinder/Auroch/Shotgun_410_A_02.wav"
+weapons/aurchshell3 "Sounds/Weapons/Peppergrinder/Auroch/Shotgun_410_A_03.wav"
+weapons/aurchshell4 "Sounds/Weapons/Peppergrinder/Auroch/Shotgun_410_A_04.wav"
+
+weapons/aurypull "Sounds/Weapons/Peppergrinder/Auroch/SAA_PreFire.ogg"
+weapons/auryrotate "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineCylinderAdvance.wav"
+weapons/auryopen  "Sounds/Weapons/Peppergrinder/Auroch/SAA_BreachOpen.wav"
+weapons/auryclose  "Sounds/Weapons/Peppergrinder/Auroch/SAA_BreachClose.wav"
+weapons/auryeject "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound.wav"
+weapons/auryempty "Sounds/Weapons/Peppergrinder/Auroch/SAA_HammerHit.wav"
+
+$random weapons/auryinsert {weapons/auryinsert1 weapons/auryinsert2 weapons/auryinsert3}
+weapons/auryinsert1 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound1.ogg"
+weapons/auryinsert2 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound2.ogg"
+weapons/auryinsert3 "Sounds/Weapons/Peppergrinder/Auroch/SAA_MagazineEjectRound3.ogg"
+
+$random weapons/auryshellinsert {weapons/auryshellinsert1 weapons/auryshellinsert2 weapons/auryshellinsert3 weapons/auryshellinsert1}
+
+weapons/auryshellinsert1 "Sounds/Weapons/Peppergrinder/Auroch/RevolverInsertRound_Small_1.wav"
+weapons/auryshellinsert2 "Sounds/Weapons/Peppergrinder/Auroch/RevolverInsertRound_Small_2.wav"
+weapons/auryshellinsert3 "Sounds/Weapons/Peppergrinder/Auroch/RevolverInsertRound_Small_3.wav"
+weapons/auryshellinsert4 "Sounds/Weapons/Peppergrinder/Auroch/RevolverInsertRound_Small_4.wav"
+
+// Flower boy :asriel:
+$random weapons/lotusbang {weapons/lotusfire1 weapons/lotusfire2 weapons/lotusfire3 weapons/lotusfire4}
+$random weapons/lotusquiet {weapons/lotussuppressed1 weapons/lotussuppressed2 weapons/lotussuppressed3 weapons/lotussuppressed4}
+
+weapons/lotusfire1 "Sounds/Weapons/Peppergrinder/Lotus/AWM_Shot_1.wav"
+weapons/lotusfire2 "Sounds/Weapons/Peppergrinder/Lotus/AWM_Shot_2.wav"
+weapons/lotusfire3 "Sounds/Weapons/Peppergrinder/Lotus/AWM_Shot_3.wav"
+weapons/lotusfire4 "Sounds/Weapons/Peppergrinder/Lotus/AWM_Shot_4.wav"
+
+weapons/lotussuppressed1 "Sounds/Weapons/Peppergrinder/Lotus/Suppressed_Shot_308_1.wav"
+weapons/lotussuppressed2 "Sounds/Weapons/Peppergrinder/Lotus/Suppressed_Shot_308_2.wav"
+weapons/lotussuppressed3 "Sounds/Weapons/Peppergrinder/Lotus/Suppressed_Shot_308_3.wav"
+weapons/lotussuppressed4 "Sounds/Weapons/Peppergrinder/Lotus/Suppressed_Shot_308_4.wav"
+
+weapons/lotusopen "Sounds/Weapons/Peppergrinder/Lotus/MTs255_BreachOpen.ogg"
+weapons/lotusclose "Sounds/Weapons/Peppergrinder/Lotus/MTs255_BreachClose.ogg"
+$random weapons/lotusload {weapons/lotusload1 weapons/lotusload2 weapons/lotusload3 weapons/lotusload4}
+weapons/lotusload1 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_1.ogg"
+weapons/lotusload2 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_2.ogg"
+weapons/lotusload3 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_3.ogg"
+weapons/lotusload4 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineInsertRound_4.ogg"
+$random weapons/lotuseject {weapons/lotuseject1 weapons/lotuseject2 weapons/lotuseject3}
+weapons/lotuseject1 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_1.ogg"
+weapons/lotuseject2 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_2.ogg"
+weapons/lotuseject3 "Sounds/Weapons/Peppergrinder/Lotus/MTs255_MagazineEjectRound_3.ogg"
+weapons/lotusclick "Sounds/Weapons/Peppergrinder/Lotus/RevolverF_Prefire.ogg"
+weapons/lotuscyl "Sounds/Weapons/Peppergrinder/Lotus/M1895Nagant_MagazineCylinderAdvance.ogg"
+
+// Box Cannon
+$random weapons/bcfire {weapons/boxfire1 weapons/boxfire2 weapons/boxfire3 weapons/boxfire4}
+
+weapons/boxfire1 "Sounds/Weapons/Peppergrinder/Boxcannon/BergmannSimplex_Shot_1.wav"
+weapons/boxfire2 "Sounds/Weapons/Peppergrinder/Boxcannon/BergmannSimplex_Shot_2.wav"
+weapons/boxfire3 "Sounds/Weapons/Peppergrinder/Boxcannon/BergmannSimplex_Shot_3.wav"
+weapons/boxfire4 "Sounds/Weapons/Peppergrinder/Boxcannon/BergmannSimplex_Shot_4.wav"
+
+$random weapons/bcquiet {weapons/boxsuppressed1 weapons/boxsuppressed2 weapons/boxsuppressed3 weapons/boxsuppressed4}
+
+weapons/boxsuppressed1 "Sounds/Weapons/Peppergrinder/Boxcannon/Suppressed_Shot_9x19_1.wav"
+weapons/boxsuppressed2 "Sounds/Weapons/Peppergrinder/Boxcannon/Suppressed_Shot_9x19_2.wav"
+weapons/boxsuppressed3 "Sounds/Weapons/Peppergrinder/Boxcannon/Suppressed_Shot_9x19_3.wav"
+weapons/boxsuppressed4 "Sounds/Weapons/Peppergrinder/Boxcannon/Suppressed_Shot_9x19_4.wav"
+
+weapons/bcload "Sounds/Weapons/Peppergrinder/Boxcannon/C96_MagazineIn.wav"
+weapons/bcclick "Sounds/Weapons/Peppergrinder/Boxcannon/C96_Bolt_Back.wav"
+weapons/bcclick2 "Sounds/Weapons/Peppergrinder/Boxcannon/C96_BoltSlideForward.wav"
+weapons/bcmagclick "Sounds/Weapons/Peppergrinder/Boxcannon/C96_MagazineOut.ogg"
+weapons/bcdry "Sounds/Weapons/Peppergrinder/Boxcannon/C96_HammerHit.ogg"
+
+// Vera
+$random weapons/vera {weapons/verashot1 weapons/verashot2 weapons/verashot3 weapons/verashot4}
+
+weapons/verashot1 "Sounds/Weapons/Peppergrinder/Vera/AR15_Shot_1.wav"
+weapons/verashot2 "Sounds/Weapons/Peppergrinder/Vera/AR15_Shot_2.wav"
+weapons/verashot3 "Sounds/Weapons/Peppergrinder/Vera/AR15_Shot_3.wav"
+weapons/verashot4 "Sounds/Weapons/Peppergrinder/Vera/AR15_Shot_4.wav"
+
+// yakuza? yeyuza? idk
+weapons/chinalake "Sounds/Weapons/Peppergrinder/Yeyuza/yeyuza_fire.wav"
+weapons/chinalakepumpback "Sounds/Weapons/Peppergrinder/Yeyuza/KSG_HandleBack.wav"
+weapons/chinalakepumpforward "Sounds/Weapons/Peppergrinder/Yeyuza/KSG_HandleForward.wav"
+
+$random weapons/chinalakeload {weapons/chinalakeload1 weapons/chinalakeload2 weapons/chinalakeload3}
+
+weapons/chinalakeload1 "Sounds/Weapons/Peppergrinder/Yeyuza/HK69A1_MagazineInsertRound_1.wav"
+weapons/chinalakeload2 "Sounds/Weapons/Peppergrinder/Yeyuza/HK69A1_MagazineInsertRound_2.wav"
+weapons/chinalakeload3 "Sounds/Weapons/Peppergrinder/Yeyuza/HK69A1_MagazineInsertRound_3.wav"
+
+// bpx
+$random weapons/bpx {weapons/bpxfire1 weapons/bpxfire2 weapons/bpxfire3 weapons/bpxfire4}
+
+weapons/bpxfire1 "Sounds/Weapons/Peppergrinder/BPX/9x18SMG_Shot_1.wav"
+weapons/bpxfire2 "Sounds/Weapons/Peppergrinder/BPX/9x18SMG_Shot_2.wav"
+weapons/bpxfire3 "Sounds/Weapons/Peppergrinder/BPX/9x18SMG_Shot_3.wav"
+weapons/bpxfire4 "Sounds/Weapons/Peppergrinder/BPX/9x18SMG_Shot_4.wav"
+
+weapons/bpxmagout "Sounds/Weapons/Peppergrinder/BPX/KWG_MagazineOut.wav"
+weapons/bpxmagin "Sounds/Weapons/Peppergrinder/BPX/KWG_MagazineIn.wav"
+weapons/bpxboltback "Sounds/Weapons/Peppergrinder/BPX/KWG_BoltSlideBack.wav"
+weapons/bpxboltforward "Sounds/Weapons/Peppergrinder/BPX/KWG_BoltSlideForward.wav"
+
+// thog
+$random weapons/trog {weapons/trogshot1 weapons/trogshot2 weapons/trogshot3 weapons/trogshot4}
+
+weapons/trogshot1 "Sounds/Weapons/Peppergrinder/Trog/G36_Shot_1.wav"
+weapons/trogshot2 "Sounds/Weapons/Peppergrinder/Trog/G36_Shot_2.wav"
+weapons/trogshot3 "Sounds/Weapons/Peppergrinder/Trog/G36_Shot_3.wav"
+weapons/trogshot4 "Sounds/Weapons/Peppergrinder/Trog/G36_Shot_4.wav"
+
+weapons/trogclick "Sounds/Weapons/Peppergrinder/Trog/G36_BoltSlideForward.wav"
+weapons/trogclick2 "Sounds/Weapons/Peppergrinder/Trog/G36_BoltSlideBackLocked.wav"
+weapons/trogunload "Sounds/Weapons/Peppergrinder/Trog/G36_MagazineOut.wav"
+weapons/trogload "Sounds/Weapons/Peppergrinder/Trog/G36_MagazineIn.wav"
+weapons/trogchamber "Sounds/Weapons/Peppergrinder/Trog/G36_MagazineInsertRound.wav"
+
+// Otiz
+$random weapons/otisblast1 {weapons/otisfire1 weapons/otisfire2 weapons/otisfire3 weapons/otisfire4}
+
+weapons/otisfire1 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_Shot_1.wav"
+weapons/otisfire2 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_Shot_2.wav"
+weapons/otisfire3 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_Shot_3.wav"
+weapons/otisfire4 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_Shot_4.wav"
+
+$random weapons/otiseject {weapons/otiseject1 weapons/otiseject2 weapons/otiseject3}
+
+weapons/otiseject1 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_MagazineEjectRound_1.wav"
+weapons/otiseject2 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_MagazineEjectRound_2.wav"
+weapons/otiseject3 "Sounds/Weapons/Peppergrinder/Otis/M1879RR_MagazineEjectRound_3.wav"
+
+weapons/otisclick "Sounds/Weapons/Peppergrinder/Otis/M1879RR_HammerHit.wav"
+weapons/otiscyl "Sounds/Weapons/Peppergrinder/Otis/M1879RR_MagazineCylinderAdvance.wav"
+weapons/otisload "Sounds/Weapons/Peppergrinder/Otis/Flaregun_Metal_MagazineInsertRound.wav"
+weapons/otisopen "Sounds/Weapons/Peppergrinder/Otis/M1879RR_BreachOpen.wav"
+weapons/otisclose "Sounds/Weapons/Peppergrinder/Otis/M1879RR_BreachClose.wav"
+
+// HLAR
+$random weapons/hlar     {weapons/hlar1 weapons/hlar2 weapons/hlar3 weapons/hlar4}   $limit weapons/hlar 0 //shootbang
+$alias weapons/hlargrenadeshot weapons/grenadeshot
+
+weapons/hlarunload "Sounds/Weapons/Peppergrinder/HLAR/CZ75_MagazineIn.wav"
+weapons/hlarload "Sounds/Weapons/Peppergrinder/HLAR/CZ75_MagazineOut.wav"
+weapons/hlarchamber "Sounds/Weapons/Peppergrinder/HLAR/CZ75_MagazineInsertRound.wav"	
+weapons/hlar1 "Sounds/Weapons/Peppergrinder/HLAR/CZ75_Shot_1.wav"
+weapons/hlar2 "Sounds/Weapons/Peppergrinder/HLAR/CZ75_Shot_2.wav"
+weapons/hlar3 "Sounds/Weapons/Peppergrinder/HLAR/CZ75_Shot_3.wav"
+weapons/hlar4 "Sounds/Weapons/Peppergrinder/HLAR/CZ75_Shot_4.wav"
+
+// Greely
+$random weapons/greelyshot {weapons/greelyshot1 weapons/greelyshot2 weapons/greelyshot3 weapons/greelyshot4 weapons/greelyshot5 weapons/greelyshot6 weapons/greelyshot7 weapons/greelyshot8} $volume weapons/greelyshot 3.0
+// Why did I do this? idrk - [ted]
+weapons/greelyshot1 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Low_01.wav"
+weapons/greelyshot2 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Low_02.wav"
+weapons/greelyshot3 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Low_03.wav"
+weapons/greelyshot4 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Low_04.wav"
+weapons/greelyshot5 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_01.wav"
+weapons/greelyshot6 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_02.wav"
+weapons/greelyshot7 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_03.wav"
+weapons/greelyshot8 "Sounds/Weapons/Peppergrinder/Greely/Shotgun_Immediate_Lowpunch_04.wav"
+weapons/greelyblast "Sounds/Weapons/Peppergrinder/Greely/Bot-ShotgunA_Shot_OutsideEnclosed_Far_1.ogg"
+$alias weapons/greelyreload weapons/huntreload
+weapons/greelyrackup "Sounds/Weapons/Peppergrinder/Greely/ShotgunPumpActionF_HandleForwardShell.ogg"
+weapons/greelyrackdown "Sounds/Weapons/Peppergrinder/Greely/ShotgunPumpActionF_HandleBackShell.ogg"
+
+// Guillotine
+$random weapons/guillotine {weapons/guilshot1 weapons/guilshot2 weapons/guilshot3 weapons/guilshot4}
+weapons/guilshot1 "Sounds/Weapons/Peppergrinder/Guillotine/GenericPistol_Shot_01.wav"
+weapons/guilshot2 "Sounds/Weapons/Peppergrinder/Guillotine/GenericPistol_Shot_02.wav"
+weapons/guilshot3 "Sounds/Weapons/Peppergrinder/Guillotine/GenericPistol_Shot_03.wav"
+weapons/guilshot4 "Sounds/Weapons/Peppergrinder/Guillotine/GenericPistol_Shot_04.wav"
+weapons/guilmagout "Sounds/Weapons/Peppergrinder/Guillotine/FiveseveN_MagazineOut.wav"
+weapons/guilmagin "Sounds/Weapons/Peppergrinder/Guillotine/FiveseveN_MagazineIn.wav"
+weapons/guildry "Sounds/Weapons/Peppergrinder/Guillotine/FiveseveN_HammerHit.wav"
+weapons/guilchamber1 "Sounds/Weapons/Peppergrinder/Guillotine/FiveseveN_BoltSlideBackHeld.wav"
+weapons/guilchamber2"Sounds/Weapons/Peppergrinder/Guillotine/FiveseveN_BoltSlideForwardHeld.wav"
+
+// ZM-94
+$random weapons/zm94fire {weapons/zm94fire1 weapons/zm94fire2 weapons/zm94fire3 weapons/zm94fire4}
+weapons/zm94fire1 "Sounds/Weapons/Peppergrinder/ZM94/M107_Shot_1.ogg"
+weapons/zm94fire2 "Sounds/Weapons/Peppergrinder/ZM94/M107_Shot_2.ogg"
+weapons/zm94fire3 "Sounds/Weapons/Peppergrinder/ZM94/M107_Shot_3.ogg"
+weapons/zm94fire4 "Sounds/Weapons/Peppergrinder/ZM94/M107_Shot_4.ogg"
+
+weapons/zm94fix "Sounds/Weapons/Peppergrinder/ZM94/M107_HammerHit.ogg"
+weapons/zm94open1 "Sounds/Weapons/Peppergrinder/ZM94/M107_Safety.ogg"
+weapons/zm94open2 "Sounds/Weapons/Peppergrinder/ZM94/M107_HammerHit.ogg"
+weapons/zm94magout "Sounds/Weapons/Peppergrinder/ZM94/M107_MagazineOut.ogg"
+weapons/zm94magin "Sounds/Weapons/Peppergrinder/ZM94/M107_MagazineOut.ogg"
+weapons/zm94click "Sounds/Weapons/Peppergrinder/ZM94/M107_Safety.ogg"
+weapons/zm94click2 "Sounds/Weapons/Peppergrinder/ZM94/M107_HammerHit.ogg"
+$alias weapons/zm94chamber2 "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBackHeld.ogg"
+$alias weapons/zm94chamber2a "Sounds/Weapons/Peppergrinder/ZM94/BoltSlideForward.ogg"
+$alias weapons/zm94boltback "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideBack.ogg"
+$alias weapons/zm94boltforw "Sounds/Weapons/Peppergrinder/ZM94/M107_BoltSlideForward.ogg"
+
+// PG-667 DMR
+$random weapons/dmrfire {weapons/dmrfire1 weapons/dmrfire2 weapons/dmrfire3 weapons/dmrfire4}
+weapons/dmrfire1 "Sounds/Weapons/Peppergrinder/DMR/SVT40_Shot_1.ogg"
+weapons/dmrfire2 "Sounds/Weapons/Peppergrinder/DMR/SVT40_Shot_2.ogg"
+weapons/dmrfire3 "Sounds/Weapons/Peppergrinder/DMR/SVT40_Shot_3.ogg"
+weapons/dmrfire4 "Sounds/Weapons/Peppergrinder/DMR/SVT40_Shot_4.ogg"
+weapons/dmrmagout "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_MagazineOut.ogg"
+weapons/dmrmagin "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_MagazineIn.ogg"
+weapons/dmrboltback "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_BoltSlideBackHeld.ogg"
+weapons/dmrboltforward "Sounds/Weapons/Peppergrinder/DMR/M1Carbine_BoltSlideForwardHeld.ogg"\
+
+// Mauler
+$alias weapons/maulerfwoosh weapons/bfgfwoosh
+$alias weapons/maulidle weapons/plasidle
+$alias weapons/maulopen weapons/plasopen
+$alias weapons/maulload weapons/plasload
+$alias weapons/maulcharge weapons/bfgcharge
+$alias weapons/maulf weapons/bfgf
+$alias weapons/maulclose weapons/plasclose
+$alias weapons/maulclose2 weapons/plasclose2
+$alias weapons/maulsf weapons/plasmaf
+$alias weapons/maulfar weapons/bfgfar
+$alias weapons/maulx weapons/bfgx
+$limit weapons/maulx 0
+$alias weapons/maulsprayfire weapons/bfgfwoosh
+$volume weapons/maulx 0.15
+$alias weapons/maultx weapons/bfgx
+
+
+// Melonades
+
+// this thing does not need a beefier explode sound mine's already overkill - [Ted]
+$alias mg13/explode world/explode
+
+// I'll probably use the booger sound I use for this also as I plan on replacing it with a rock throwing sound. - [Ted]
+//stone/impact 
+
+// the gloppy
+$alias misc/gibbed misc/gibbssss
+$random misc/gibbssss {
+	misc/jointbreak_1
+	misc/jointbreak_2
+	misc/jointbreak_3
+	misc/jointbreak_4
+	misc/jointexplode_1
+	misc/jointexplode_2
+	misc/jointexplode_3
+	misc/jointexplode_4
+	misc/jointexplode_5
+	misc/jointsever_1
+	misc/jointsever_2 
+	misc/jointsever_3 
+	misc/jointsever_4 
+	misc/jointsever_5 
+	misc/freedoomgibbed
+}
+
+misc/freedoomgibbed "Sounds/gib sounds/DSSLOP.wav"
+misc/jointbreak_1 "Sounds/Gib Sounds/JointBreak_1.wav"
+misc/jointbreak_2 "Sounds/Gib Sounds/JointBreak_2.wav"
+misc/jointbreak_3 "Sounds/Gib Sounds/JointBreak_3.wav"
+misc/jointbreak_4 "Sounds/Gib Sounds/JointBreak_4.wav"
+misc/jointexplode_1 "Sounds/Gib Sounds/JointExplode_1.wav"
+misc/jointexplode_2 "Sounds/Gib Sounds/JointExplode_2.wav"
+misc/jointexplode_3 "Sounds/Gib Sounds/JointExplode_3.wav"
+misc/jointexplode_4 "Sounds/Gib Sounds/JointExplode_4.wav"
+misc/jointexplode_5 "Sounds/Gib Sounds/JointExplode_5.wav"
+misc/jointsever_1 "Sounds/Gib Sounds/JointSever_1.wav"
+misc/jointsever_2 "Sounds/Gib Sounds/JointSever_2.wav"
+misc/jointsever_3 "Sounds/Gib Sounds/JointSever_3.wav"
+misc/jointsever_4 "Sounds/Gib Sounds/JointSever_4.wav"
+
+blursphere/pickup uwupckup
+$volume blursphere/pickup 0.3
+
+blursphere/use uwuuse
+blursphere/unuse uwuunuse
+blursphere/drop uwudrop
+
+blursphere/hallu0 uwuhall0
+blursphere/hallu1 uwuhall1
+blursphere/hallu2 uwuhall2
+blursphere/hallu3 uwuhall3
+blursphere/hallu4 uwuhall4
+blursphere/hallu5 uwuhall5
+blursphere/hallu6 uwuhall6
+
+// IED beep - killer7
+ied/beep IEDTRIG
+
+// H.E.R.P. - killer7
+herp/beep HERPIDLE $volume herp/beep 0.5
+herp/beepready HERPSIGT $volume herp/beepready 0.5
+$alias herp/shoot weapons/rifle
+
+/*
+herp/crawl
+herp/repair
+herp/repair2
+herp/repairtry
+*/
+
+/// Ugly as Sin.
+// Flares and Glowsticks - Penumbra Overture and from Kris' own glowsticks.
+UaS/Flare "sounds/uas/tr_flare.wav"
+UaS/Glowstick "sounds/uas/glowstick.ogg"
+
+uas/foodscoop "Sounds/uas/scoop.wav"
+uas/chew "Sounds/uas/food_eat.wav"
+uas/swish "Sounds/uas/water_swish.wav"
+uas/sip "Sounds/uas/water_drink.wav"
+$random uas/foodopen {uas/foodcanopen1 uas/foodcanopen2}
+
+uas/foodcanopen1 "sounds/uas/item_foodcan_01_open.wav"
+uas/foodcanopen2 "sounds/uas/item_foodcan_02_open.wav"
+
+uas/foodclose "Sounds/uas/putaway.wav"
+
+// I don't think I have any sounds for this and I don't want to record this myself. I starve myself enough so maybe in the future it'll be done. - [Ted]
+//uas/gurgle
+
+uas/llm/toggle "sounds/uas/llm_toggle.wav"
+
+/// Medical.
+// Scanning - killer7
+medikit/scan MSCANA
+medikit/done MSCANA
+
+bloodpack/open "sounds/medical/bloodpack_open.wav"
+bloodpack/shake "Sounds/medical/bloodpack_shake.wav"
+bloodpack/inject "sounds/medical/bloodpack_injection.wav" 
+
+misc/injection "Sounds/Medical/Stim_Inject.wav" $volume misc/injection 2.5
+misc/stimdrop "Sounds/Medical/Stim_Throw.wav"
+
+bandage/rip "Sounds/Medical/Bandage_Rip.wav"
+bandage/rustle "Sounds/Medical/Bandaging.wav"
+
+// all of the sounds i make for this sound fucking horrid so i'm just gonna make the original stfu - [Ted]
+$volume roundmaker/chug1 0.00001
+$volume roundmaker/chug2 0.00001
+$volume roundmaker/pop 0.00001
+
+doorbuster/stick "Sounds/Items/item_beacon_place.wav"
+
+$random world/explode {world/impactexplode1 world/impactexplode2 world/impactexplode3 world/impactexplode4 world/impactexplode5 world/impactexplode6}  $limit world/explode 0
+world/impactexplode1 "Sounds/Explosions/impact_explosion_01.wav"
+world/impactexplode2 "Sounds/Explosions/impact_explosion_02.wav"
+world/impactexplode3 "Sounds/Explosions/impact_explosion_03.wav"
+world/impactexplode4 "Sounds/Explosions/impact_explosion_04.wav"
+world/impactexplode5 "Sounds/Explosions/impact_explosion_05.wav"
+world/impactexplode6 "Sounds/Explosions/impact_explosion_06.wav"
+
+// Casings
+$random misc/casing {misc/pistolcasing1 misc/pistolcasing2 misc/pistolcasing3 misc/pistolcasing4 misc/pistolcasing5 misc/pistolcasing6} $volume misc/casing 0.77
+$random misc/casing2 {misc/shotguncasing1 misc/shotguncasing2 misc/shotguncasing3 misc/shotguncasing4 misc/shotguncasing5 misc/shotguncasing6}  $volume misc/casing2 0.82
+
+misc/pistolcasing1 "Sounds/casings/casePistolLarge_HardSurface_Medium_1.wav"
+misc/pistolcasing2 "Sounds/casings/casePistolLarge_HardSurface_Medium_2.wav"
+misc/pistolcasing3 "Sounds/casings/casePistolLarge_HardSurface_Medium_3.wav"
+misc/pistolcasing4 "Sounds/casings/casePistolLarge_HardSurface_Medium_4.wav"
+misc/pistolcasing5 "Sounds/casings/casePistolLarge_HardSurface_Medium_5.wav"
+misc/pistolcasing6 "Sounds/casings/casePistolLarge_HardSurface_Medium_6.wav"
+
+misc/shotguncasing1 "Sounds/casings/CaseShotgun_HardSurface_Medium_1.wav"
+misc/shotguncasing2 "Sounds/casings/CaseShotgun_HardSurface_Medium_2.wav"
+misc/shotguncasing3 "Sounds/casings/CaseShotgun_HardSurface_Medium_3.wav"
+misc/shotguncasing4 "Sounds/casings/CaseShotgun_HardSurface_Medium_4.wav"
+misc/shotguncasing5 "Sounds/casings/CaseShotgun_HardSurface_Medium_5.wav"
+misc/shotguncasing6 "Sounds/casings/CaseShotgun_HardSurface_Medium_6.wav"
+
+/// Secret Sounds - Penumbra Overture/Black Plague, MGS V: TPP, Cave Story, AlterniaBound
+misc/secret1 DSSECRET
+misc/secret2 DSARTIFA
+misc/secret3 DSABRANK
+misc/secret4 DSSRANK
+misc/secret5 DSQUOTE
+misc/secret6 DSALTERN
+
+$random misc/secret
+{
+	misc/secret1 misc/secret1 misc/secret1 misc/secret1 misc/secret1
+	misc/secret2 misc/secret2 misc/secret2 misc/secret2 misc/secret2
+	misc/secret3 misc/secret3 misc/secret3 misc/secret3
+	misc/secret4 misc/secret4
+	misc/secret5 misc/secret5
+	misc/secret6
+}
+
+// Don't get mad at me for including 'You Won A Combat' from AlterniaBound. It barely has a chance to play anyway.
+
+// volume control :)
+// gunshots should preferably be louder than stuff like pain sounds though
+$volume weapons/auryshotgun 2
+$volume weapons/auryshoot 2
+$volume weapons/auto5fire 2
+$volume weapons/redcrownfire 2
+$volume weapons/wiseaufire 2
+$volume weapons/hmpfire 2
+$volume weapons/bigrifle2 3
+$volume weapons/bronto 2
+$volume weapons/bronto2 1
+$volume weapons/bigrifle 3 
+$volume weapons/vulcanette 4
+$volume weapons/rockignite 3
+$volume weapons/rocklaunch 2
+$volume weapons/rifle 5
+$volume weapons/slayersingle 2
+$volume weapons/hunter 2
+$volume weapons/deinoblast1 3
+$volume weapons/deinoblast2 3
+$volume weapons/smg 2
+$volume weapons/pistol 3
+$volume world/explode 2.2
+$volume weapons/bcfire 2.2
+$volume weapons/bcquiet 2.2
+$volume weapons/bpx 3
+$volume misc/firecrkl 0.25 $limit misc/firecrkl 10
+
+// Menu sounds - LET IT DIE // currently no sounds, kind of like it like this
+menu/activate MENUOPEN
+menu/backup MENUIVLD
+menu/prompt MENUFOCS
+menu/cursor MENUCLIK
+menu/change MENUSCRL
+menu/invalid MENUIVLD
+menu/dismiss MENUIVLD
+menu/choose MENUCONF
+menu/clear MENUIVLD
