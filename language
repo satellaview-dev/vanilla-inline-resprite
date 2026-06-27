@@ -1,3 +1,5 @@
+[enu default]
+
 // Lesser version of GSD = [Ted]
 GGSAVED = "Savestate made.";
 
@@ -240,3 +242,90 @@ DEBRIS3 = "For want of random wall-punched debris in your pockets, you pick your
 SLAYERUNAVAILABLE = "SL41 \"Slayer\" unavailable, have a SPOS-E28 \"Hunter\" instead.";
 WORNREMOVING = "Removing ";
 WORNFIRST = " First.";
+
+//Default Weapons Help Text
+WPHFIRE = "\caFire";
+WPHAltfire = "\cgAlt.Fire";
+WPHReload = "\crReload";
+WPHZoom = "\cdZoom";
+WPHArel = "\cxAlt.Reload";
+WPHFmode = "\cyFire Mode";
+WPHUser3 = "\cgUser3";
+WPHUnload = "\ckUnload";
+WPHSpeed = "\ccSpeed";
+WPHMlook = "\cbMouse look";
+WPHUse = "\ceUse";
+WPHDrop = "\csDrop";
+WPHDropO = "\coDrop one";
+WPHSht = "  Shoot\n";
+WPHRel = "  Reload\n";
+WPHUnl = "  Unload\n";
+WPHMMan = "  Mag Manager\n";
+WPHUSEONY = "  Use on yourself\n";
+WPHUSEONS = "  Use on someone else";
+
+// UaS
+
+// Hunger
+UAS_CONSUMABLE_DISPLAY_CONTENTS = "\cpContents\n";
+UAS_CONSUMABLE_DISPLAY_CALORIES = "\ce%i Millicalories\n";
+UAS_CONSUMABLE_DISPLAY_ML_FLUIDS = "\ce%i mB Fluids\n\n";
+UAS_CONSUMABLE_DISPLAY_PACKAGE_CLOSED = "Package Sealed\n";
+UAS_CONSUMABLE_DISPLAY_REMAINING = "\cw%.0f%% Remaining\n";
+UAS_CONSUMABLE_DISPLAY_CONSOOMING = "Mmmm...";
+UAS_CONSUMABLE_DISPLAY_SPOILED = "Inedible.\n";
+UAS_CONSUMABLE_DISPLAY_NOTWORTHEATING = "bordering inedible\n";
+UAS_CONSUMABLE_DISPLAY_SOMEWHATSTALE = "getting stale\n";
+UAS_CONSUMABLE_DISPLAY_NOTQUITEFRESH = "no longer fresh\n";
+UAS_CONSUMABLE_DISPLAY_FRESH = "still fresh\n";
+
+// Stabilizer
+UI_STABILIZER_ATTACHED_MAX       = "\cgERR: Max pairings exceeded!";
+UI_STABILIZER_DETACHED_ALL       = "\czUnpairing all UIDS...";
+
+UI_STABILIZER_ATTACHED_FORMAT    = "\czAttached %i/3 \ccUID %i";
+UI_STABILIZER_DETACHED_FORMAT    = "\czDetached \ccUID %i";
+UI_STABILIZER_CALIBRATING_FORMAT = "\crERR: RECALIBRATING \cu%.5f";
+UI_STABILIZER_STABILIZING_FORMAT = "\cqSTABILIZING... \cu%.5f";
+UI_STABILIZER_STABILIZED_FORMAT  = "\cdSTABILIZED! \cu%.5f";
+
+// Medical
+TAG_SELFBANDAGE = "Improvised Bandages";
+UI_WOUND_OPEN            = "- The wound is %sopen";
+UI_WOUND_PATCHED         = "- The wound is %sopen\c- but \c[Yellow]not bleeding";
+UI_WOUND_SOMEWHATPATCHED = "- The wound is %sopen\c- but \c[Orange]somewhat bleeding";
+UI_WOUND_SEALED          = "- The wound is \c[Green]sealed";
+
+UI_STABILITY_FINE         = "- It feels %sacceptable";
+UI_STABILITY_SOMEWHATFINE = "- It feels %ssomewhat acceptable";
+UI_STABILITY_DECENT       = "- It feels %sbearable";
+UI_STABILITY_NOTTHATGREAT = "- It feels %spainful";
+UI_STABILITY_LESSHORRIBLE = "- It feels %sless agonizing";
+UI_STABILITY_HORRIBLE     = "- It feels %sagonizing";
+
+UI_TRK_PAINKILLERS_NOTNUMBED      = "- It is still %squite painful";
+UI_TRK_PAINKILLERS_NUMBED         = "- It is %snumbed";
+UI_TRK_PAINKILLERS_MOSTLYNUMBED   = "- It is %smostly numbed";
+UI_TRK_PAINKILLERS_SOMEWHATNUMBED = "- It is %ssomewhat numbed";
+
+UI_TRK_DIRTINESS_CLEAN           = "- It is %sspotless";
+UI_TRK_DIRTINESS_FILTHY          = "- It is %sdisgusting";
+UI_TRK_DIRTINESS_VERYDIRTY       = "- It is %srather gross";
+UI_TRK_DIRTINESS_SOMEWHATDIRTY   = "- It is %ssomewhat gross";
+UI_TRK_DIRTINESS_ABITDIRTY       = "- It is %sa bit dirty";
+UI_TRK_DIRTINESS_ALMOSTCLEAN     = "- It is %sclose to clean";
+UI_TRK_DIRTINESS_ACCEPTABLYCLEAN = "- It is %sacceptably clean";
+
+UI_TRK_OBSTRUCTIONS_NONE    = "- There are %sno apparent obstructions";
+UI_TRK_OBSTRUCTIONS_MANY    = "- There are %smany obstructions";
+UI_TRK_OBSTRUCTIONS_SEVERAL = "- There are %sseveral obstructions";
+UI_TRK_OBSTRUCTIONS_AFEW    = "- There are %sa few obstructions";
+UI_TRK_OBSTRUCTIONS_SOME    = "- There are %ssome obstructions";
+UI_TRK_OBSTRUCTIONS_VERYFEW = "- There are %svery few obstructions";
+
+UI_TRK_CAVITY_NODAMAGE          = "- There is %sno treatable tissue damage";
+UI_TRK_CAVITY_SEVEREDAMAGE      = "- There is %ssevere tissue damage";
+UI_TRK_CAVITY_SIGNIFICANTDAMAGE = "- There is %ssignificant tissue damage";
+UI_TRK_CAVITY_MODERATEDAMAGE    = "- There is %smoderate tissue damage";
+UI_TRK_CAVITY_SOMEDAMAGE        = "- There is %ssome tissue damage";
+UI_TRK_CAVITY_LITTLEDAMAGE      = "- There is %slittle tissue damage";
