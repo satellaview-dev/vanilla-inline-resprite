@@ -1,0 +1,242 @@
+// Lesser version of GSD = [Ted]
+GGSAVED = "Savestate made.";
+
+MNU_NEWGAME = "\c[CoolerBlue]New Game\c-";
+MNU_HDOPTIONS = "\c[White]HD Options\c-";
+MNU_OPTION = "\c[White]Options\c-";
+MNU_LOADG = "\c[CoolerBlue]Load Game\c-";
+MNU_SAVEG = "\c[CoolerBlue]Save Game\c-";
+MNU_QUITG = "\c[White]Quit Game\c-";
+
+TAG_FIST = "Unarmed";
+TAG_CHAINSAW="\"Lumberjack\" Chainsaw";
+TAG_PISTOL="Mouletta 99FX Pistol";
+TAG_REVOLVER="Buger \"Deinonychu\" Revolver";
+TAG_SMG="Mouletta MP-46 SMG";
+TAG_HUNTER="\"Hunter\" Pump-action Shotgun";
+TAG_SLAYER="\"Slayer\" Double-Barrel Shotgun";
+TAG_ZM66="Volt ZM-66 Assault Rifle";
+TAG_VULC="Volt \"Vulcanette\" SAW";
+TAG_GL="\"Blooper\" Grenade Launcher";
+TAG_RL="PG-44L Rocket Launcher";
+TAG_THUNDER="Volt \"Thunder Buster\" Beam Projector";
+TAG_LIB="G&C ZM-7 \"Liberator\" Battle Rifle";
+TAG_LIB_NOGL="G&C ZM-7 \"Liberator\" Battle Rifle (no GL)";
+TAG_LIB_CLASSIC="G&C ZM-7 \"Liberator\" Battle Rifle (classic)";
+TAG_LIB_CLASSICNOGL="G&C ZM-7 \"Liberator\" Battle Rifle (classic nogl)";
+TAG_BRONTO="\"Brontornis\" Ultralight Cannon";
+TAG_BOSS="G&C Mk. IV \"Boss\" Rifle";
+TAG_GREFRAG="Volt M22 Fragmentation Grenade";
+TAG_BFG9000="Boris Field Glyph v9.1.14";
+
+TAG_DERP="Volt \"D.E.R.P.\" robot";
+TAG_HERP="Volt \"H.E.R.P.\" robot";
+
+TAG_PISTOLAMMO="9x33mm round";
+TAG_REVOLVERAMMO=".355 Round";
+TAG_SHOTGUNSHELLS="12-gauge Buckshot Shells";
+TAG_426AMMO="4.26mm round";
+TAG_7MMAMMO="7.76x54mm round";
+TAG_7MMAMMOR="Recasted 7.76x54mm round";
+TAG_7MCASING="7.76x54mm casing";
+TAG_BRONTOSHELL="35x120mm shell";
+TAG_ROCKETGRENADE="40mm rocket grenade";
+TAG_HEATROCKET="\"H.E.A.T.\" rocket";
+TAG_DUDROCKET="Dud 40mm rocket grenade";
+
+TAG_9MMAG15="99FX magazine";
+TAG_4MMAG="ZM-66 magazine";
+TAG_9MMAG30="MP-4X magazine";
+TAG_7MMAG="Liberator magazine";
+TAG_7MCLIP="7.76x54mm clip";
+TAG_BATTERY="22v Battery";
+
+TAG_BACKPACK="Infantry Backpack";
+TAG_LITEAMP="Binocular Night Vision Device";
+TAG_RADSUIT="Environmental Hazard Protection Suit";
+TAG_AMMOBOX="\"Quik-Drop\" Ammo Box";
+TAG_AMMOBOXDISARMED="Disarmed \"Quik-Drop\" Ammo Box";
+TAG_KEYS="Stolen Facility Keycards";
+TAG_MAPGIVER="Improved Map Intelligence";
+
+TAG_BLOODPACK="AGM Synthetic Bloodpack";
+TAG_DOORBUSTER="AGM Specialist Doorbuster";
+TAG_IEDKIT="Improvised Explosive Device kit";
+TAG_JETPACK="U4-Jerris FAJP-2231 Reconnaissance Jetpack";
+TAG_LADDER="AGM Foldable Ladder";
+TAG_RELOADER="G&C 7.76x54mm Portable Recasting Device";
+
+TAG_STIMPACK="Emergency Stimpack";
+TAG_ZERKPACK="\'Berzerk\' Injector";
+TAG_MEDIKIT="Standard Medikit";
+TAG_2NDFLESHAPP="Second Flesh applicator";
+TAG_BANDAGES="Improvised Bandages";
+
+ARMOR_PUTON="You put on your %s armor. ";
+ARMOR_BATTLE="AGM Specialist Combat";
+ARMOR_GARRISON="AGM Standard Garrison";
+DURABILITY_95="This wouldn't pass AGM Armory Inspection.";
+DURABILITY_75="The plate is clearly damaged, with a dent near the center.";
+DURABILITY_6="At least it keeps your guts in.";
+DURABILITY_3="This protects... Something! Sometimes!";
+DURABILITY_1="Better start praying.";
+
+ARMOUR_REMOVE="Taking off your ";
+
+TALISMAN_SUMMON1="They shall stand again and hear there/a horn in the hills ringing./Whose shall the horn be?";
+TALISMAN_SUMMON2="For this war will last/through years uncounted/and you shall be summoned/once again ere the end.'";
+TALISMAN_SUMMON3="Faint cries I heard, and dim horns blowing,/and a murmur as of countless far voices;/it was like the echo of some forgotten battle/in the Dark Years long ago.";
+TALISMAN_SUMMON4="Pale swords were drawn; but I know not/whether their blades would still bite,/for the Dead needed no longer/any weapon but fear.'";
+
+BACKPACK_TOOFULL="Your backpack is too full! Drop some stuff out if it before putting anything new in!";
+
+FIST_KILL1="";
+FIST_KILL2="";
+FIST_KILL3="";
+FIST_KILL4="";
+FIST_KILL5="";
+FIST_KILL6="";
+FIST_KILL7="";
+FIST_KILL8="";
+FIST_KILL9="";
+FIST_KILL10="";
+FIST_KILL11="";
+FIST_KILL12="";
+FIST_KILL13="";
+FIST_KILL14="";
+FIST_KILL15="";
+FIST_KILL16="";
+FIST_KILL17="";
+FIST_KILL18="";
+FIST_KILL19="";
+//Tips
+TIP_TIP = "\crTIP: \cu";
+TIP_1 = "Read the manual!\n(open the pk7 with 7Zip and look for \cdhd_manual.md\cu)";
+TIP_2 = "Hold \cdUse\cu to check what options are available for a given weapon.";
+TIP_3 = "Make sure you bind keys for \cdall weapon \"User\" buttons\cu\n\cdDrop Weapon\cu, \cdZoom\cu and \cdReload\cu!";
+TIP_4 = "Check the menu for additional keybinds unique to HD!";
+TIP_5 = "To stop bleeding, hit \cd9\cu or use the \cdmedikit\cu.\nThen, if needed, take off your armour\nby hitting \cdReload\cu.";
+TIP_6 = "Hold \cdJump\cu and move forwards into a ledge to try to clamber over it.";
+TIP_7 = "Hit \cdUser3\cu to access the magazine manager on most weapons.";
+TIP_8 = "Hit \cdUser4\cu to unload most weapons.";
+TIP_9 = "If you are carrying too much useless ammo,\nhit the \cdPurge Useless Ammo\cu key\nor use the \cdhd_purge\cu command.";
+TIP_10 = "\cvTr\caan\cjs ri\cagh\cvts\cu are human rights, the same way guns are weapons.\nIf you're having trouble with this, one stopgap measure\nis to think of this in the same way guns are loaded.";
+TIP_11 = "Hit \cdUse\cu on a ladder to start climbing, and again or \cdJump\cu to dismount.\nHit \cdJump\cu while \cdcrouching\cu to take down the ladder.";
+TIP_12 = "Your movement and turning affect your punches and grenades.\nGo to the range and practice!";
+TIP_13 = "Use stimpacks to slow down bleeding.";
+TIP_14 = "If the sight picture is getting in your way when you're on the move,\ntry changing the \cdhd_noscope\cu and \cdhd_sightbob\cu settings to taste.";
+TIP_15 = "Holding \cdZoom\cu will greatly stabilize your aim,\nand implicitly brace your weapon\nagainst nearby map geometry.";
+TIP_16 = "Hold \cdZoom\cu when firing an airburst rocket or grenade\nto prevent the airburst value from resetting.";
+TIP_17 = "Hit the \cdDrop One\cu key or use the \cdhd_dropone\cu command\nto drop a single unit of each ammo type used by your current weapon.";
+TIP_18 = "If you don't want the diving action when you hit \cdCrouch\cu while running,\nset \cdhd_noslide\cu to 1 or use the menu.";
+TIP_19 = "If you don't want \cdZoom\cu to make you lean,\nset \cdhd_nozoomlean\cu to true.";
+TIP_20 = "Set \cdfraglimit\cu to 100+ to enable HD's elimination mode.\nIn co-op, a positive fraglimit under 100\nalso serves as a lives limit.";
+TIP_21 = "Turn on \cdhd_pof\cu in co-op or teamplay for a one-life mode where\nyou can only be raised in the presence of all living teammates.";
+TIP_22 = "Turn on \cdhd_flagpole\cu in multiplayer to create an objective!\n(Move AWAY from the flagpole to program the flag.)";
+TIP_23 = "Turn on \cdhd_nobots\cu to cause the bots to be replaced by HD riflemen.";
+TIP_24 = "To remote activate a switch or door,\ntype \cdderp 555\cu to stick a D.E.R.P. on to it,\nthen \cdderp 556\cu to make it flick the switch.";
+TIP_25 = "Hold \cdZoom\cu and/or \cdUse\cu when you use the goggles to set the amplitude.\nBoth together decrements, \cdUse\cu alone increments.\n\cdZoom\cu alone toggles red/green mode.";
+TIP_26 = "Zombies never surrender!\nIf a downed monster is still twitching,\nthey may be able to recover and attack again.";
+TIP_27 = "If a map contains a mandatory drop that is harmless\nin vanilla but absolutely cannot be survived in HD,\nit is socially acceptable to cheat past it with \cdiddqd\cu or \cdfly\cu.";
+TIP_29 = "Drink DRLA water. This is a threat.";
+TIP_30 = "Your ZM-66 jamming too much?\nTry using it on semi auto or burst fire!\nLess rounds fired and missed means less chance of jams!";
+
+//Oh, nice MGS reference. Ha-ha ha-ha ha...
+BOSS_CLEANS = "Looking inside that chamber...";
+BOSS_FINLINE = "You %s %s from the %s. ";
+
+BOSS_CLEAN1 = "There doesn't seem to be much. ";
+BOSS_CLEAN2 = "What the FUCK. ";
+BOSS_CLEAN3 = "About time - this gun is barely functional. ";
+BOSS_CLEAN4 = "This is starting to gum up badly. ";
+BOSS_CLEAN5 = "It can use some cleaning. ";
+BOSS_EXTRACT = "extract";
+BOSS_SCRAPEOFF = "scrape off";
+BOSS_WIPEAWAY = "wipe away";
+BOSS_CAREREMOVE = "{care|skil|force}fully remove";
+BOSS_DUMPOUT = "dump out";
+BOSS_PICKOUT = "pick out";
+BOSS_BLOWOFF = "blow off";
+BOSS_SHAKEOUT = "shake out";
+BOSS_SCRUBOFF = "scrub off";
+BOSS_FISH = "fish out";
+
+BOSS_SOMEDUST = "some dust";
+BOSS_ALODUST = "a lot of dust";
+BOSS_ABOPOWDER = "a bit of powder residue";
+BOSS_DAOPOWDER = "a disturbing amount of powder residue";
+BOSS_SEXGREASE = "some {excess|excessive} grease";
+BOSS_ALOSOOT = "a layer of {soot|ash|grime}";
+BOSS_SOMEIRON = "some {iron|steel|aluminum} filings";
+BOSS_HAIR = "a {bit|lot} of hair";
+BOSS_EYELASH = "an {eyelash|chunk of flesh|eye|finger|claw|fang}";
+BOSS_BLOOD = "a patch of dried {blood|unidentifiable secretion}";
+BOSS_RUST = "a {bit|lot} of rust";
+BOSS_CRUMB = "a crumb";
+BOSS_DEADSOME = "a dead {insect|spider|ant|wasp|kobold|lizard|cockroach|babuin}";
+BOSS_ASHES = "ashes";
+BOSS_SKIN = "some loose bits of {skin|dust|fabric|plant matter}";
+BOSS_FLUID = "a sticky {fluid|paste|secretion} of some sort";
+BOSS_WOWSOME = "wow some fucking *{gunk|crunk|funk|shit}*";
+BOSS_BOOGER = "a tiny {kobold|lizard|cockroach|skeleton|babuin}";
+BOSS_FECAL = "trace {kobold|lizard|cockroach|skeleton|babuin} matter";
+BOSS_BULLETSIMPACT = "yet even more of that anonymous grey debris that all those bullet impacts make";
+BOSS_JAM = "a dollop of {straw|blue|rasp|marrion|sprunk}berry jam";
+BOSS_HUSK = "the dried husk of a {pinto|fava|mung|chili} bean with residual hog components";
+BOSS_SFLESH = "a tiny cancerous nodule of Second Flesh";
+BOSS_CRYSTAL = "some crystalline buildup of congealed {frag|jam}";
+BOSS_SPACEANT = "a nesting queen space {kobold|lizard|cockroach|skeleton|babuin}";
+BOSS_TRANSISTOR = "a single {modern-day transistor|capacitor|recoil spring assembly|trigger mechanism|firing pin|gas tube|ejector|bolt carrier|rotating locking head|eyeball|rat head|crow beak|tail|liver|heart|hand|horn}";
+BOSS_TINBOSS = "a tiny Boss rifle (also jammed)";
+BOSS_FILM = "a colourless film of darkness made visible";
+
+BOSS_BOLTCAR = "bolt carrier";
+BOSS_MAINEXTRACTOR = "main extractor";
+BOSS_AUXEXTRACTOR = "auxiliary extractor";
+BOSS_CAMPIN = "cam pin";
+BOSS_BOLTHEAD = "bolt head";
+BOSS_STRIKER = "striker";
+BOSS_SPRING = "firing pin spring";
+BOSS_EJECTSLOT = "ejector slot";
+BOSS_STRIKERSPRING = "striker spring";
+BOSS_EJSPRING = "ejector spring";
+
+BOSS_CLENF1 = "You barely scrape the surface of this all-encrusting abomination.";
+BOSS_CLENF2 = "The gun will need a lot more work than this before it can be deployed again.";
+BOSS_CLENF3 = "You may be able to get a couple shots out of this now.";
+BOSS_CLENF4 = "It's better, but only barely.";
+BOSS_CLENF5 = "Good to go.";
+
+426MAGREALLY = "%s\nAre you sure you want to do that? Management will know.";
+
+TAG_TRIPWIRES = "Tripwires";
+TRIPWIRETXT = "\cp\--- \cqTRIPWIRES \cp---\c-\n\n\nHit fire to set one end of the line,\n\nthen hit fire again to plant the grenade.\n\nMove carefully.";
+TRIPWIRETXT1 = "You need to stick the %s on to something stable.";
+TRIPWIRETXT2 = "wire";
+TRIPWIRETXT3 = "grenade";
+TRIPWIRETXT4 = "Wire end secured. Now to set the grenade...";
+TRIPWIRETXT5 = "Grenade secured! Now be very, very careful...";
+TRIPWIRETXT6 = "Welp, there goes that one. Try again?";
+TRIPWIRESABORT = "Setup aborted.";
+
+EAST = "E";
+WEST = "W";
+SOUTH = "S";
+NORTH = "N";
+HD_MAGlLIMIT = "hd_maglimit ";
+FIST_DRAG = "dragging ";
+FIST_CORPSE = "corpse";
+FIST_ITEM = "item";
+FIST_OBJECT = "object";
+PICK_REDKEY = "\crRED\c- local area clearance code saved to body tracker.";
+PICK_BLUEKEY = "\cnBLUE\c- local area clearance code saved to body tracker.";
+PICK_YELLOWKEY = "\cfYELLOW\c- local area clearance code saved to body tracker.";
+PICK_REDSKULL = "\crRED\c-, the way of the blood shed for you in vain.";
+PICK_BLUESKULL = "\cnBLUE\c-, the way of the heaven forever lost to you.";
+PICK_YELLOWSKULL = "\cfYELLOW\c-, the way of the gold that has lured all mankind to death.";
+DEBRIS = "You find some random punched-wall debris in your pockets to flick it at the offending thing.";
+DEBRIS2 = "For want of random wall-punched debris or a natural mucus system, you scrape some tainted lubricant off of some of your unseen parts and wad it into a filthy, flickable lump.";
+DEBRIS3 = "For want of random wall-punched debris in your pockets, you pick your nose to flick it at the offending thing.";
+SLAYERUNAVAILABLE = "SL41 \"Slayer\" unavailable, have a SPOS-E28 \"Hunter\" instead.";
+WORNREMOVING = "Removing ";
+WORNFIRST = " First.";
