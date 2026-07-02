@@ -36,7 +36,7 @@ TAG_HERP="Volt \'H.E.R.P.\' robot";
 
 TAG_PISTOLAMMO="9x33mm round";
 TAG_REVOLVERAMMO=".355 Round";
-TAG_SHOTGUNSHELLS="12-gauge Buckshot Shells";
+TAG_SHOTGUNSHELLS="12-Gauge Buckshot shells";
 TAG_426AMMO="4.26mm round";
 TAG_7MMAMMO="7.76x54mm round";
 TAG_7MMAMMOR="Recasted 7.76x54mm round";
@@ -111,6 +111,7 @@ FIST_KILL16="";
 FIST_KILL17="";
 FIST_KILL18="";
 FIST_KILL19="";
+
 //Tips
 TIP_TIP = "\crTIP: \cu";
 TIP_1 = "Read the manual!\n(open the pk7 with 7Zip and look for \cdhd_manual.md\cu)";
@@ -329,3 +330,39 @@ UI_TRK_CAVITY_SIGNIFICANTDAMAGE = "- There is %ssignificant tissue damage";
 UI_TRK_CAVITY_MODERATEDAMAGE    = "- There is %smoderate tissue damage";
 UI_TRK_CAVITY_SOMEDAMAGE        = "- There is %ssome tissue damage";
 UI_TRK_CAVITY_LITTLEDAMAGE      = "- There is %slittle tissue damage";
+
+// HDBulletLib Tags
+TAG_069BORE = ".410 Buckshot shell";
+TAG_420FREI = ".451 Frei round";
+TAG_420FREI_BOX = ".451 Frei Box";
+TAG_069BORE_BOX = ".410 Buckshot Box";
+TAG_NDM = "9x33mm N.D.M. round";
+TAG_NDMBOX = "9x33mm N.D.M. Box";
+TAG_500SWL = ".500 S&W light round";
+TAG_500SWH = ".500 S&W heavy round";
+TAG_500SW = ".500 S&W";
+TAG_EXPLSHL = "12-Gauge Explosive Slug shell";
+TAG_FLARESHELL = "12-Gauge Flare shell";
+TAG_G45LC = "Gold .45 LC round";
+TAG_45LC = ".45 LC round";
+TAG_50AM = ".50 AM round";
+TAG_50OMG = ".50 OMG round";
+TAG_MUSKETBALL = ".56 Caliber Lead Ball";
+TAG_LLSHELL = "10-Gauge Less-Lethal shell";
+TAG_12SLUG = "12-Gauge Slug shell";
+TAG_THUNROCKET = "\'H.E.T.S.\' Rocket";
+TAG_TORTROCKET = "\'A.P.F.S.\' Rocket";
+TAG_45ACP = ".45 ACP round";
+TAG_3006 = ".30-06 round";
+TAG_20MMGREN = "20mm grenade";
+TAG_20MMGRENBOX = "20mm grenade box";
+TAG_10MMAUTO = "10x40mm Auto round";
+TAG_6MMFLECH = "6x42mm SCF Round";
+TAG_22LR = "5x12mm Bumblebee Rimfire";
+TAG_4GS = "4-Gauge saboted slug";
+TAG_4GB = "4-Gauge buckshot shell";
+TAG_BIRDSHOT = "10-Gauge Birdshot shell";
+TAG_300SAVAGE=".300 Savage ammo";
+TAG_762TOKAREV="7.62x25mm Tokarev round";
+TAG_828MM = "8.28mm UAC round";
+TAG_MICROCELL = "12v Micro-Battery";
