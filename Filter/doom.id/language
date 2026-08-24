@@ -15,7 +15,7 @@ TAG_CHAINSAW="\'Lumberjack\' Chainsaw";
 TAG_PISTOL="M99FX Pistol";
 TAG_REVOLVER="\'Deinonychu\' Revolver";
 TAG_SMG="MP-46 SMG";
-TAG_HUNTER="\'Hunter\' Pump-action Shotgun";
+TAG_HUNTER="\'Hunter\' Pump-Action Shotgun";
 TAG_SLAYER="\'Slayer\' Double-Barrel Shotgun";
 TAG_ZM66="ZM-66 Assault Rifle";
 TAG_VULC="\'Vulcanette\' SAW";
@@ -61,11 +61,11 @@ TAG_AMMOBOXDISARMED="Disarmed \'Quik-Drop\' Ammo Box";
 TAG_KEYS="Stolen Facility Keycards";
 TAG_MAPGIVER="Improved Map Intelligence";
 
-TAG_BLOODPACK="AGM Synthetic Bloodpack";
-TAG_DOORBUSTER="AGM Specialist Doorbuster";
+TAG_BLOODPACK="UAC Synthetic Bloodpack";
+TAG_DOORBUSTER="UAC Specialist Doorbuster";
 TAG_IEDKIT="Improvised Explosive Device kit";
 TAG_JETPACK="U4-Jerris FAJP-2231 Reconnaissance Jetpack";
-TAG_LADDER="AGM Foldable Ladder";
+TAG_LADDER="UAC Foldable Ladder";
 TAG_RELOADER="G&C 7.76x54mm Portable Recasting Device";
 
 TAG_STIMPACK="Emergency Stimpack";
@@ -75,9 +75,9 @@ TAG_2NDFLESHAPP="Second Flesh applicator";
 TAG_BANDAGES="Improvised Bandages";
 
 ARMOR_PUTON="You put on your %s armor. ";
-ARMOR_BATTLE="AGM Specialist Combat";
-ARMOR_GARRISON="AGM Standard Garrison";
-DURABILITY_95="This wouldn't pass AGM Armory Inspection.";
+ARMOR_BATTLE="UAC Specialist Combat";
+ARMOR_GARRISON="UAC Standard Garrison";
+DURABILITY_95="This wouldn't pass UAC Armory Inspection.";
 DURABILITY_75="The plate is clearly damaged, with a dent near the center.";
 DURABILITY_6="At least it keeps your guts in.";
 DURABILITY_3="This protects... Something! Sometimes!";
@@ -343,7 +343,7 @@ TAG_500SWH = ".500 S&W heavy round";
 TAG_500SW = ".500 S&W";
 TAG_EXPLSHL = "12-Gauge Explosive Slug shell";
 TAG_FLARESHELL = "12-Gauge Flare shell";
-TAG_G45LC = "Gold .45 LC round";
+TAG_G45LC = "Golden .45 LC round";
 TAG_45LC = ".45 LC round";
 TAG_50AM = ".50 AM round";
 TAG_50OMG = ".50 OMG round";
@@ -366,3 +366,103 @@ TAG_300SAVAGE=".300 Savage ammo";
 TAG_762TOKAREV="7.62x25mm Tokarev round";
 TAG_828MM = "8.28mm UAC round";
 TAG_MICROCELL = "12v Micro-Battery";
+
+// Minor changes to have addon weapons be named in a stylistically similar manner to the vanilla ones. Colon three. - [Tavi & Ted]
+
+// 1337Weps
+TAG_AURY = "\'Aurochs\' .451 Revolver";
+TAG_BPX	= "\'BPX\' Pistol-Caliber Carbine";
+TAG_COYOTE = "\'Coyote\' .451 Automag";
+TAG_KIL7 = "\'Killer-7\' .500 S&W Handcanon";
+TAG_SILENCEDPISTOL = "M99FXs Suppressed Pistol";
+TAG_SILENCEDPISTOL_AUTO = "M99FXs Suppressed Pistol (select-fire)";
+TAG_AJM = "\'A.J.M.\' .355 PDW";
+TAG_QUADSHOT = "\'Deliverer\' Quad-Barreled Shotgun";
+TAG_AUTO5 = "\'Baileya-5\' Repeating Slug Rifle";
+TAG_DMR = "PG-667 Designated Marksman Rifle";
+TAG_YEYU = "\'Yeyuze\' Grenade Launcher";
+TAG_MML = "PG-88H Rotary Missile Launcher";
+TAG_NSB = "Mk. II \'Boss\' Rifle";
+
+// Ace Corp
+TAG_BLACKHAWK = "\'Blackhawk\' Archotech Crossbow";
+TAG_BLACKHAWKBOLT = "Regular Bolt";
+TAG_BLACKHAWKBOLT_E = "Electric Bolt";
+TAG_BLACKHAWKBOLT_I = "Incendiary Bolt";
+TAG_BLACKHAWKBOLT_N = "Nuclear Bolt";
+TAG_BLACKJACK = "\'Blackjack\' .355 Combo-Rifle";
+TAG_BLACKJACKMAG_355 = "Blackjack .355 Magazine";
+TAG_BLACKJACKMAG_SHELL = "Blackjack Shell Magazine";
+TAG_GUNGNIR = "\'Gungnir\' Explosive Rifle";
+TAG_HAMMERHEAD = "CIR-37 \'Hammerhead\' Plasma Minigun";
+TAG_JACKDAW = "\'Jackdaw\' 9mm SAW";
+TAG_MAJESTIC = "\'Majestic\' .500 S&W Railcannon";
+TAG_MAJESTICMAG = "\'Majestic\' Cylinder";
+TAG_REDLINE = "RDL-N3 \'Redline\' Thermal Lance";
+TAG_SCORPION = "'Scorpion' 35mm Sniper Cannon";
+TAG_VIPER = "\'Viper\' .50 cal Handgun";
+TAG_VIPERMAG = ".50 AM \'Viper\' Magazine";
+TAG_WYVERN = "\'Wyvern\' .50 cal Survival Rifle";
+
+TAG_HACKEDRELOADER = "G&C 7.76x54mm Portable Reloading Device";
+TAG_LADDERLAUNCHER = "UAC Portable Ladder Launcher";
+TAG_MAGAZINERELOADER = "G&C Portable Magazine Reloading Device";
+TAG_PSH = "Volt Personal Shield Generator";
+TAG_DEPLOYABLEBARRICADE = "UAC Standard Deployable Barricade";
+TAG_BOOSTERJETS = "U4-Jerris HY-1000X2 Booster Jets";
+TAG_DSD = "Dimensional Storage Device";
+TAG_FAK = "G&C Field Reassembly & Repair Kit";
+TAG_ASSEMBLYCORE = "G&C Assembly Core";
+TAG_ROOMBA = "Volt \'S.C.A.M.P.\' robot";
+TAG_SECRETFINDER = "Volt Secret Finder";
+TAG_SOULCUBE = "Soul Cube";
+TAG_SUPERSTIM = "High-Yield Super Stimpack";
+TAG_SUPPLYBEACON = "Volt Supply Beacon";
+TAG_TELEPORTER = "Volt Portable Teleporter";
+
+TAG_RAWBRASS = "High-Purity Brass";
+TAG_RAWFUEL = "Solid Fuel";
+TAG_RAWLEAD = "High-Density Lead";
+TAG_RAWPLASTIC = "PETG Plastic";
+TAG_RAWPOWDER = "Smokeless Gunpowder";
+TAG_RAWSTEEL = "Stainless Steel";
+TAG_UNIVERSAL_RELOADER = "Volt Universal Recasting Device";
+
+// Merchant
+TAG_BUX = "UAC Universal Dollar";
+TAG_COIN = "Demonic Coin";
+PICKUP_COIN = "You got some sort of demonic currency.";
+TAG_GEM = "Petty Soul Gem";
+PICKUP_GEM = "You got a petty soul gemstone.";
+TAG_WALLET = "Leather Wallet";
+
+// Icarus Innovations
+TAG_BARRACUDA = "\'Barracuda\' Double-Rotary Shotgun";
+TAG_BITCH = "\'Bitch\' 4mm LMG";
+TAG_FENRIS = "CFL-21 'Fenris' Cold Fusion Laser";
+TAG_FLAMENWERFER77 = "G&C Flammenwerfer-77";
+TAG_FRONTIERSMAN = "\'Frontiersman\' 7mm Lever-Action Rifle";
+TAG_GASTANK = "Napalm Tank";
+TAG_GFB9 = "Volt G.F.B. Mk. 9";
+TAG_MBR = "ZM-105 Modular Battle Rifle";
+TAG_NCT = "Volt NS3-Cr.Kt";
+TAG_NYX = "CM-3 \'Nyx\' .355 Magnum";
+TAG_NYXMAG = "CM-3 \'Nyx\' Magazine";
+TAG_PD42 = "Volt ZM-115 Suppressed 4.26mm PDW";
+TAG_PD42MAG = "ZM-42 Magazine";
+TAG_SIX12 = "\'Six-12\' Rotary Shotgun";
+
+// Altis
+TAG_ALTIS = "\'Altis\' Over/Under Shotgun";
+
+// Mortis Munitions
+TAG_TARONGA = "\'Taronga\' 6x42mm SCF SAW";
+TAG_SHOTPISTOL = "\'Featherduster\' Farming Shotgun";
+TAG_JUNCO = "\'Junco\' 4.26mm Pistol";
+TAG_4M25MAG = "4.26mm Non-Standard Pistol Magazine";
+TAG_4MSEALANT = "Aftermarket Mag Sealant";
+TAG_CURRAWONG = "\'Currawong\' 10x40mm PDW";
+TAG_TROCAZ = "\'Trocaz\' 4.26mm Survival Rifle";
+TAG_KAKAPO = "\'Kakapo\' Eather Pistol";
+TAG_POCHARD = "\'Pochard\' 8.28mm LMG";
+TAG_POCHARDDRUM = "\'Pochard\' Drum Magazine";
