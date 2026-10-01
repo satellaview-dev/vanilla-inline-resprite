@@ -200,7 +200,7 @@ weapons/plasclose202 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_main
 weapons/plasclose203 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_03.wav"
 weapons/plasclose204 "Sounds/Weapons/Thunder Buster Beam Projector/CAT_mech_maintenance_off_04.wav"
 
-weapons/plascrack   dsthubm   $limit weapons/plascrack 0
+weapons/plascrack	"Sounds/Weapons/Thunder Buster Beam Projector/plascrack.wav"	$limit weapons/plascrack 1
 $random weapons/plasmaf {weapons/thuncharge1 weapons/thuncharge2 weapons/thuncharge3 weapons/thuncharge4}
 $random weapons/plasclose {weapons/plasbeep1 weapons/plasbeep2 weapons/plasbeep3}
 
@@ -232,8 +232,7 @@ $volume caco/zap 0.3
 $volume caco/zap2 0.3
 $volume caco/zap3 0.3
 
-$alias world/tbfar world/riflefar $volume world/tbfar 0.272
-$alias world/tbfar2 world/shotgunfar $volume world/tbfar2 0.272
+world/tbfar	 "Sounds/Weapons/Thunder Buster Beam Projector/tbfar.wav"	alias world/tbfar2 world/tbfar
 
 // Liberal Rifle
 // This kinda sounds like shit but idrc, same goes for the ZM reload
